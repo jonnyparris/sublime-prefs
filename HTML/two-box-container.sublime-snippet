@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<div class="two-box-container${1:}">
+  <div class="fixed-box${2:}">${3:}</div>
+  <div class="flexi-box${4:}">${5:}</div>
+</div>
+${6:}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flx</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+p "*"*80
+p ${1:"Here's the ${2:params} #{${2:params}\}"}
+p "*"*80${3}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>log</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

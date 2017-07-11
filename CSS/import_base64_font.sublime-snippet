@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@font-face {
+  font-family: '${1:font-name}';
+  src: url("data:font/eot;charset=utf-8;base64,${2:base64}") format('embedded-opentype');
+  src: url("data:application/x-font-woff;charset=utf-8;base64,${3:base64}") format('woff'),
+  url("data:font/ttf;charset=utf-8;base64,${4:base64}") format('truetype');
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>base64</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.css</scope>
+</snippet>

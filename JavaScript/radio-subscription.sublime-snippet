@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+radio('${1:channelName}').unsubscribe(${2:callBacks});
+radio('${1:channelName}').subscribe(${2:callBacks});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>radio</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

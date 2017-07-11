@@ -1,0 +1,11 @@
+[
+		{ "keys": ["alt+shift+a"],        "command": "expand_selection", "args": {"to": "tag"} },
+		{ "keys": ["shift+alt+w"],        "command": "wrap_lines" },
+    { "keys": ["super+k", "super+t"], "command": "title_case" },
+    { "keys": ["super+,"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },
+		{ "keys": ["alt+super+n"],        "command": "advanced_new_file_new" },
+    { "keys": ["alt+shift+v"],      "command": "paste_and_indent" },
+
+    { "keys": ["ctrl+alt+k"], "command": "scroll_lines", "args": {"amount": 5.0} },
+    { "keys": ["ctrl+alt+j"], "command": "scroll_lines", "args": {"amount": -5.0} }
+]

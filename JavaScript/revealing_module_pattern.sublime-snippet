@@ -1,0 +1,58 @@
+<snippet>
+  <content><![CDATA[
+var ${1:ModuleName} = (function () {
+  var ${2:_privateDomRef};
+  var ${3:_privateVariable};
+  var ${4:publicVariable};
+
+  function init() {
+    _cacheDOM();
+    _bindEvents();
+    _subscribeHandlers();
+    _render();
+  }
+
+  //----------- init -----------
+  function _cacheDOM() {
+    ${2:_privateDomRef} = document.querySelector('.private-dom-ref-selector');
+  }
+
+  function _bindEvents() {
+    ${5:_bindListener}();
+  }
+
+  function _subscribeHandlers() {
+    radio('channelTitle').unsubscribe(_privateMethod);
+    radio('channelTitle').subscribe(_privateMethod);
+  }
+
+  //----------- listeners -----------
+  function ${5:_bindListener}() {
+
+  }
+
+  //----------- rendering -----------
+  function _render() {
+    ${6:toggleStuff}
+  }
+
+  //----------- private logic -----------
+
+
+  //----------- api -----------
+  function ${7:publicMethod}() {
+
+  }
+
+  return {
+    init: init,
+    ${4:publicVariable}: ${4:publicVariable},
+    ${7:publicMethod}: ${7:publicMethod},
+  }
+})();]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rvm</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>JS revealing module pattern</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+logger.${3:debug}("+"*80)
+logger.${3:debug}(${1:"Here's the ${2:params} #{${2:params}\}"})
+logger.${3:debug}("="*80)
+${4}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>logg</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

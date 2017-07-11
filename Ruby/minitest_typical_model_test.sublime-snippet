@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+  before :each do
+    @${2:this} = ${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}s(:${2:this})
+    @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}} = ${1:${TM_FILENAME/(\w+)_test.rb/\U1/g}}.new
+  end
+
+  test "${1:${TM_FILENAME/(\w+)_test.rb/\1/g}} has all the expected attributes" do
+    @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.must_respond_to :${3:name}
+  end
+
+  test "${1:${TM_FILENAME/(\w+)_test.rb/\1/g}} has the expected methods" do
+    @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.must_respond_to :name_helper
+  end
+
+  test "${1:${TM_FILENAME/(\w+)_test.rb/\1/g}} has all the expected associations" do
+    @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.must_respond_to :pets
+  end
+
+  test "User saves with all correct params" do
+    assert @${2:this}.valid?
+  end
+
+  test "user validates for unique ${3:name}" do
+    @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.${3:name} = "valid@${3:name}.com"
+    @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.valid?
+    assert @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.errors[:${3:name}].empty?
+    @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.${3:name} = ${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}s(:${2:this}).${3:name}
+    @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.valid${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}    refute @${1:${TM_FILENAME/(\w+)_test.rb/\1/g}}.errors[:${3:name}].empty?
+  end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>model-minitest</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

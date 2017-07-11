@@ -1,0 +1,235 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "dats",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "dats"
+			},
+			"key": "1a5c2a71177acf7fe479933b2468a171",
+			"label": "dats"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range "
+			},
+			"key": "b01dac259fabb9c579f2f2b9111a3325",
+			"label": "range "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(N,M)",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "\\i(N,M)"
+			},
+			"key": "e11b628b2a2151e098cf5a5179d8cbd2",
+			"label": "\\i(N,M)"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"repeat": "5",
+					"text": ""
+				},
+				"command": "text_pastry_date_range",
+				"text": "days x5"
+			},
+			"key": "7929f17a96797adfe71aad1762e112bc",
+			"label": "days x5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "x5 %A"
+				},
+				"command": "text_pastry_date_range",
+				"text": "days x5 %A"
+			},
+			"key": "ff924902728bee43f1c577d30b692765",
+			"label": "days x5 %A"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "x7 %A"
+				},
+				"command": "text_pastry_date_range",
+				"text": "days x7 %A"
+			},
+			"key": "ec44908f20d8abbfc6fb8ef89daa5ee2",
+			"label": "days x7 %A"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Mon-Sun"
+				},
+				"command": "text_pastry_date_range",
+				"text": "days Mon-Sun"
+			},
+			"key": "2966e6dce5e21b63e5497e278fb2c14f",
+			"label": "days Mon-Sun"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"repeat": "5",
+					"text": "Mon-Fri"
+				},
+				"command": "text_pastry_date_range",
+				"text": "days Mon-Fri x5"
+			},
+			"key": "5686ee414f698986884da2f74e7e49f8",
+			"label": "days Mon-Fri x5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Mon-Fri"
+				},
+				"command": "text_pastry_date_range",
+				"text": "days Mon-Fri"
+			},
+			"key": "5530702e6bdf2de0f2d6726dd0fc971a",
+			"label": "days Mon-Fri"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"step_size": "month",
+					"text": "3-5"
+				},
+				"command": "text_pastry_date_range",
+				"text": "months 3-5"
+			},
+			"key": "4adba7a829fdbfb306b01ddd4af06dd9",
+			"label": "months 3-5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"step_size": "week",
+					"text": ""
+				},
+				"command": "text_pastry_date_range",
+				"text": "weeks"
+			},
+			"key": "ae60f11ab51860bdb22794a943335a34",
+			"label": "weeks"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range Mon-Fri",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range Mon-Fri"
+			},
+			"key": "42bcbbbef36a56c52e4449ff52d9ad8b",
+			"label": "range Mon-Fri"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": ""
+				},
+				"command": "text_pastry_date_range",
+				"text": "days"
+			},
+			"key": "44fdec47036f482b68b748f9d786801b",
+			"label": "days"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range Monday-Friday",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range Monday-Friday"
+			},
+			"key": "4eec10ec298544c3df809847f6315a3f",
+			"label": "range Monday-Friday"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "selection",
+					"operator": null,
+					"pattern": ","
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "filter ,"
+			},
+			"key": "1a789e2559da927434242d71488f397e",
+			"label": "filter ,"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "filter ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "filter "
+			},
+			"key": "acd97ef12c7efb64dcb70cb797baa50d",
+			"label": "filter "
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"text": "filter ",
+			"threshold": 3
+		},
+		"command": "text_pastry_insert_text",
+		"text": "filter "
+	}
+}

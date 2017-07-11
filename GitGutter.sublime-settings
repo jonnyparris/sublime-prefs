@@ -1,0 +1,8 @@
+{
+  "show_markers_on_untracked_file": true,
+  "git_binary": {
+    "default": "",
+    "linux": "/usr/bin/git",
+    "windows": "C:/Program Files/Git/cmd/git.exe"
+  }
+}

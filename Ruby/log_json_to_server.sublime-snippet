@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+p "*"*80
+puts "Here's the ${1:json_thing}.to_json #{JSON.pretty_generate(JSON.parse(${1:json_thing}.to_json))}"
+p "*"*80
+${2:}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>log-json</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,24 @@
+{
+	"auto_complete_selector": "text.html.erb, source - comment, meta.tag - punctuation.definition.tag.begin",
+	"bold_folder_labels": true,
+	"caret_style": "smooth",
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 12.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Color Highlighter",
+		"CSS",
+		"GitHub Flavored Markdown Preview",
+		"Markdown",
+		"Vintage"
+	],
+	"save_on_focus_lost": true,
+	"show_encoding": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}
