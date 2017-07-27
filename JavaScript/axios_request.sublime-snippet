@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+axios.${1:get}(${2:url}, {
+    ${3:param1: 'stuff'}
+  })
+  .then(function (response) {
+    ${4:}
+  })
+  .catch(function (error) {
+    ${5:console.log(error);}
+  });
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>axios</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
