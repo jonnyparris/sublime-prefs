@@ -1,5 +1,16 @@
 {
 	"auto_complete_selector": "text.html.erb, source - comment, meta.tag - punctuation.definition.tag.begin",
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
 	"bold_folder_labels": true,
 	"caret_style": "smooth",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
@@ -18,8 +29,8 @@
 	"save_on_focus_lost": true,
 	"show_encoding": true,
 	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true,
-	"auto_complete_triggers": [ {"selector": "text.html", "characters": "<"}, {"selector": "source.js", "characters": "."} ]
+	"wide_caret": true
 }

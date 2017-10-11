@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+describe('${1:update${2:mutationName}}', () => {
+  it('updates {2:mutationName}', () => {
+    const newStuff = { testy: 'mctestface' };
+    mutations.${1:update${2:mutationName}}(state, newStuff);
+    assert.deepEqual(state.{2:mutationName}, newStuff);
+  });
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mtt</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.javascript</scope>
+</snippet>
