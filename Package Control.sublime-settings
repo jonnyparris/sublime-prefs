@@ -2,6 +2,8 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Arnold Clark Snippets for Ruby",
+		"RubyFormat"
 	],
 	"installed_packages":
 	[
@@ -22,6 +24,7 @@
 		"DashDoc",
 		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
+		"EJS 2",
 		"Emmet",
 		"ERB Autocomplete",
 		"ERB Snippets",
